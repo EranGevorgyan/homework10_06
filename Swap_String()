@@ -1,0 +1,7 @@
+def swap_string(Str1, Str2):
+    Str3 = Str1[:]
+    Str1 = Str2[:]
+    Str2 = Str3[:]
+    return Str1, Str2
+p = swap_string('00hell', 'hell')
+print(p)
