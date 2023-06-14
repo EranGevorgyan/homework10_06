@@ -1,0 +1,7 @@
+def starts_with(str1, str2):
+    if str1[:(len(str2))] == str2:
+        return True
+    else:
+        return False
+p = starts_with('helloworld', 'hell')
+print(p)
