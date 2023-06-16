@@ -1,5 +1,10 @@
-S = 'barevbolorin'
-x = 'v'
-if x in S:
-    
-    print(S[S.index(x)-1])
+def find_last_not_of(S, x):
+    if x in S:
+        return S[S.index(x) - 1]
+    else:
+        return 'this string doest contain that character'
+
+String = 'barevbolorin'
+Char = 'o'
+p = find_last_not_of(String, Char)
+print(p)
