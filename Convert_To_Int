@@ -1,0 +1,9 @@
+def convert_to_int(string):
+    if string.isdigit():
+        return int(string)
+    else:
+        return ValueError
+p = convert_to_int('456')
+p1 = convert_to_int('45a6')
+print(p)
+print(p1)
