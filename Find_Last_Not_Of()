@@ -1,0 +1,5 @@
+S = 'barevbolorin'
+x = 'v'
+if x in S:
+    
+    print(S[S.index(x)-1])
